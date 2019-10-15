@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">3_ActivitysConRetorno</string>
+
+    <string name="textActivity1">Activity 1</string>
+    <string name="textActivity2">Activity 2</string>
+
+    <string name="tV_activity1">Activity Uno</string>
+    <string name="tV_activity2">Activity Dos</string>
+</resources>
