@@ -14,5 +14,14 @@
         android:text="@string/tV_activity1"
         android:textSize="30dp"
         android:textColor="@android:color/white"/>
+    <Button
+        android:id="@+id/boton_vueltaActivity1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tV_activity1"
+        android:ems="10"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:hint="Volver"/>
 
 </RelativeLayout>

@@ -24,5 +24,11 @@
         android:layout_toEndOf="@id/boton_activity1"
         android:ems="10"
         android:text="@string/textActivity2"/>
+    <TextView
+        android:id="@+id/mostrarTexto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/boton_activity1"
+        android:textSize="30dp"/>
 
 </RelativeLayout>
