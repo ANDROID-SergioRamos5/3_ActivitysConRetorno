@@ -36,21 +36,15 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         if(v.getId() == R.id.boton_activity1)
         {
             Intent intento = new Intent(this, activity1.class);
-            startActivity(intento);
-
-            Toast.makeText(getApplicationContext(), "De la Actividad principal a la Activity 1",
-                    Toast.LENGTH_LONG).show();
+            intento.putExtra("ENTRADA", "De la principal a la Activity 1");
+            startActivityForResult(intento,1);
         }
         if (v.getId() == R.id.boton_activity2)
         {
             Intent intento = new Intent(this, activity2.class);
-            startActivity(intento);
-
-            Toast.makeText(getApplicationContext(), "De la Actividad principal a la Activity 2",
-                    Toast.LENGTH_LONG).show();
+            intento.putExtra("ENTRADA", "De la principal a la Activity 2");
+            startActivityForResult(intento,2);
         }
-
     }
-
 
 }
